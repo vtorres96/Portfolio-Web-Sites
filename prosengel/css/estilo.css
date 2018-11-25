@@ -1,0 +1,29 @@
+.fotos {
+    width: 520px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .fotos{
+        width: 520px;
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    .fotos{
+        width: 450px;
+        margin: 5px;
+    }
+}
+@media screen and (max-width: 560px){
+    .fotos{
+        width: 320px;
+        margin: 5px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .fotos{
+        width: 280px;
+        margin: 5px;
+    }
+}
