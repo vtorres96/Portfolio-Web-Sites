@@ -1,9 +1,9 @@
 
 TITLE: 
-New Bag Brasil Mochilas
+Bag Brasil Mochilas Oficial
 
 AUTHOR:
-Victor Torres
+DESIGNED & DEVELOPED by Victor Torres
 
 
 CREDITS:
