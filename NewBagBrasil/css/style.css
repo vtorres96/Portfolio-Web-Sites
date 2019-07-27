@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'icomoon';
+  font-family: "icomoon";
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix")
+      format("embedded-opentype"),
+    url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"),
+    url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"),
+    url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*
-* ======================================================= */
+
 body {
   font-family: "Droid Sans", Arial, sans-serif;
   font-weight: 400;
@@ -17,6 +17,15 @@ body {
   line-height: 1.7;
   color: white;
   background: #fff;
+}
+
+.logo {
+  width: 220px;
+  height: 40px;
+}
+
+.form-group label {
+  color: black;
 }
 
 #page {
@@ -43,13 +52,15 @@ body {
 }
 
 a {
-  color: #FF5126;
+  color: #ff5126;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-a:hover, a:active, a:focus {
-  color: #FF5126;
+a:hover,
+a:active,
+a:focus {
+  color: #ff5126;
   outline: none;
   text-decoration: none;
 }
@@ -58,7 +69,13 @@ p {
   margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure {
   color: #000;
   font-family: "Droid Sans", Arial, sans-serif;
   font-weight: 400;
@@ -67,17 +84,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #FF5126;
+  background: #ff5126;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #FF5126;
+  background: #ff5126;
 }
 
 ::selection {
   color: #fff;
-  background: #FF5126;
+  background: #ff5126;
 }
 
 .gtco-container {
@@ -97,7 +114,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 20px 0;
   z-index: 1001;
   background-color: rgb(77, 164, 41);
-  webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
 }
@@ -114,14 +131,15 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: bold;
 }
 .gtco-nav #gtco-logo em {
-  color: #FF5126;
+  color: #ff5126;
 }
 .gtco-nav a {
   padding: 0px 10px;
   color: #fff;
 }
 @media screen and (max-width: 768px) {
-  .gtco-nav .menu-1, .gtco-nav .menu-2 {
+  .gtco-nav .menu-1,
+  .gtco-nav .menu-2 {
     display: none;
   }
 }
@@ -143,11 +161,12 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.5s;
   font-weight: bold;
 }
-.gtco-nav ul li a:hover{
+.gtco-nav ul li a:hover {
   color: black;
 }
 
-.gtco-nav ul li a:active, .gtco-nav ul li a:focus {
+.gtco-nav ul li a:active,
+.gtco-nav ul li a:focus {
   color: white;
 }
 
@@ -210,7 +229,8 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-nav ul li.has-dropdown .dropdown li.active > a {
   color: #000 !important;
 }
-.gtco-nav ul li.has-dropdown:hover a, .gtco-nav ul li.has-dropdown:focus a {
+.gtco-nav ul li.has-dropdown:hover a,
+.gtco-nav ul li.has-dropdown:focus a {
   color: #fff;
 }
 .gtco-nav ul li.btn-cta a {
@@ -218,7 +238,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-nav ul li.btn-cta a span {
   border: none !important;
-  background: #FF5126;
+  background: #ff5126;
   padding: 4px 20px;
   display: -moz-inline-stack;
   display: inline-block;
@@ -372,7 +392,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
 }
 .gtco-cover a {
-  color: #FF5126;
+  color: #ff5126;
 }
 .gtco-cover a:hover {
   color: white;
@@ -546,9 +566,9 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #cccccc;
   position: absolute;
   left: 0;
-  top: .05em;
-  font-family: 'icomoon';
-  speak: none;
+  top: 0.05em;
+  font-family: "icomoon";
+  speak-as: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -585,7 +605,8 @@ form label {
   display: table-cell !important;
   vertical-align: middle;
 }
-#gtco-header .display-tc h1, #gtco-header .display-tc h2,
+#gtco-header .display-tc h1,
+#gtco-header .display-tc h2,
 #gtco-counter .display-tc h1,
 #gtco-counter .display-tc h2,
 .gtco-cover .display-tc h1,
@@ -624,7 +645,7 @@ form label {
 #gtco-counter .counter {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #FF5126;
+  color: #ff5126;
   font-weight: 100;
   display: block;
 }
@@ -632,7 +653,7 @@ form label {
   margin-bottom: 0;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.5);
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 768px) {
   #gtco-counter .feature-center {
@@ -668,7 +689,7 @@ form label {
   position: relative;
 }
 
-#gtco-footer{
+#gtco-footer {
   background-color: rgb(77, 164, 41);
   padding: 3em 0;
   clear: both;
@@ -713,7 +734,7 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .feature-center {
-    margin-bottom: 30	px;
+    margin-bottom: 30 px;
   }
 }
 .feature-center .icon {
@@ -734,9 +755,10 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #FF5126;
+  color: #ff5126;
 }
-.feature-center p, .feature-center h3 {
+.feature-center p,
+.feature-center h3 {
   margin-bottom: 30px;
 }
 .feature-center h3 {
@@ -760,7 +782,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 40px;
-  color: #FF5126;
+  color: #ff5126;
 }
 .feature-left .feature-copy {
   float: right;
@@ -772,9 +794,14 @@ form label {
   margin-bottom: 10px;
 }
 
-.gtco-heading {
-  margin-bottom: 5em;
+.login .gtco-heading {
+  margin-bottom: 2em;
 }
+
+.gtco-heading {
+  margin-bottom: 0em;
+}
+
 @media screen and (max-width: 768px) {
   .gtco-heading {
     margin-bottom: 3em;
@@ -805,7 +832,7 @@ form label {
   margin-left: -25px;
   height: 2px;
   left: 50%;
-  background: #FF5126;
+  background: #ff5126;
 }
 .gtco-heading h2.gtco-left:before {
   left: 0;
@@ -859,12 +886,14 @@ form label {
   font-size: 32px;
   color: #dadada;
 }
-#gtco-products .arrow-thumb a:hover, #gtco-products .arrow-thumb a:focus, #gtco-products .arrow-thumb a:active {
+#gtco-products .arrow-thumb a:hover,
+#gtco-products .arrow-thumb a:focus,
+#gtco-products .arrow-thumb a:active {
   text-decoration: none;
 }
 
 #gtco-subscribe {
-  background: #FF5126;
+  background: #ff5126;
 }
 #gtco-subscribe .form-control {
   background: transparent;
@@ -905,7 +934,9 @@ form label {
   border-color: #fff;
   color: #000;
 }
-#gtco-subscribe .btn:hover, #gtco-subscribe .btn:active, #gtco-subscribe .btn:focus {
+#gtco-subscribe .btn:hover,
+#gtco-subscribe .btn:active,
+#gtco-subscribe .btn:focus {
   background: #fff !important;
   border-color: #fff !important;
   color: #000 !important;
@@ -957,7 +988,6 @@ form label {
 }
 #gtco-footer .gtco-widget .gtco-quick-contact li i {
   width: 30px;
-  float: left;
   font-size: 18px;
   position: relative;
   margin-top: 4px;
@@ -1037,8 +1067,8 @@ form label {
 #gtco-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
   right: 0px;
-  font-family: 'icomoon';
-  speak: none;
+  font-family: "icomoon";
+  speak-as: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1102,7 +1132,9 @@ form label {
   display: table-cell;
   vertical-align: middle;
 }
-.gototop a:hover, .gototop a:active, .gototop a:focus {
+.gototop a:hover,
+.gototop a:active,
+.gototop a:focus {
   text-decoration: none;
   outline: none;
 }
@@ -1113,10 +1145,13 @@ form label {
   cursor: pointer;
   text-decoration: none;
 }
-.gtco-nav-toggle.active i::before, .gtco-nav-toggle.active i::after {
+.gtco-nav-toggle.active i::before,
+.gtco-nav-toggle.active i::after {
   background: #444;
 }
-.gtco-nav-toggle:hover, .gtco-nav-toggle:focus, .gtco-nav-toggle:active {
+.gtco-nav-toggle:hover,
+.gtco-nav-toggle:focus,
+.gtco-nav-toggle:active {
   outline: none;
   border-bottom: none !important;
 }
@@ -1126,26 +1161,28 @@ form label {
   width: 25px;
   height: 2px;
   color: #252525;
-  font: bold 14px/.4 Helvetica;
+  font: bold 14px/0.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
   background: white;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
-.gtco-nav-toggle i::before, .gtco-nav-toggle i::after {
-  content: '';
+.gtco-nav-toggle i::before,
+.gtco-nav-toggle i::after {
+  content: "";
   width: 25px;
   height: 2px;
   background: white;
   position: absolute;
   left: 0;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
 .gtco-nav-toggle.gtco-nav-white > i {
   color: #fff;
   background: #fff;
 }
-.gtco-nav-toggle.gtco-nav-white > i::before, .gtco-nav-toggle.gtco-nav-white > i::after {
+.gtco-nav-toggle.gtco-nav-white > i::before,
+.gtco-nav-toggle.gtco-nav-white > i::after {
   background: #fff;
 }
 
@@ -1228,27 +1265,33 @@ form label {
 .btn.btn-lg {
   padding: 18px 36px !important;
 }
-.btn:hover, .btn:active, .btn:focus {
+.btn:hover,
+.btn:active,
+.btn:focus {
   box-shadow: none !important;
   outline: none !important;
 }
 
 .btn-primary {
-  background: #FF5126;
+  background: #ff5126;
   color: #fff;
-  border: 2px solid #FF5126 !important;
+  border: 2px solid #ff5126 !important;
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
   background: #ff6540 !important;
   border-color: #ff6540 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #FF5126;
-  border: 2px solid #FF5126;
+  color: #ff5126;
+  border: 2px solid #ff5126;
 }
-.btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #FF5126;
+.btn-primary.btn-outline:hover,
+.btn-primary.btn-outline:focus,
+.btn-primary.btn-outline:active {
+  background: #ff5126;
   color: #fff;
 }
 
@@ -1257,7 +1300,9 @@ form label {
   color: #fff;
   border: 2px solid #5cb85c;
 }
-.btn-success:hover, .btn-success:focus, .btn-success:active {
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
   background: #4cae4c !important;
   border-color: #4cae4c !important;
 }
@@ -1266,7 +1311,9 @@ form label {
   color: #5cb85c;
   border: 2px solid #5cb85c;
 }
-.btn-success.btn-outline:hover, .btn-success.btn-outline:focus, .btn-success.btn-outline:active {
+.btn-success.btn-outline:hover,
+.btn-success.btn-outline:focus,
+.btn-success.btn-outline:active {
   background: #5cb85c;
   color: #fff;
 }
@@ -1276,7 +1323,9 @@ form label {
   color: #fff;
   border: 2px solid #5bc0de;
 }
-.btn-info:hover, .btn-info:focus, .btn-info:active {
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active {
   background: #46b8da !important;
   border-color: #46b8da !important;
 }
@@ -1285,7 +1334,9 @@ form label {
   color: #5bc0de;
   border: 2px solid #5bc0de;
 }
-.btn-info.btn-outline:hover, .btn-info.btn-outline:focus, .btn-info.btn-outline:active {
+.btn-info.btn-outline:hover,
+.btn-info.btn-outline:focus,
+.btn-info.btn-outline:active {
   background: #5bc0de;
   color: #fff;
 }
@@ -1295,7 +1346,9 @@ form label {
   color: #fff;
   border: 2px solid #f0ad4e;
 }
-.btn-warning:hover, .btn-warning:focus, .btn-warning:active {
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active {
   background: #eea236 !important;
   border-color: #eea236 !important;
 }
@@ -1304,7 +1357,9 @@ form label {
   color: #f0ad4e;
   border: 2px solid #f0ad4e;
 }
-.btn-warning.btn-outline:hover, .btn-warning.btn-outline:focus, .btn-warning.btn-outline:active {
+.btn-warning.btn-outline:hover,
+.btn-warning.btn-outline:focus,
+.btn-warning.btn-outline:active {
   background: #f0ad4e;
   color: #fff;
 }
@@ -1314,7 +1369,9 @@ form label {
   color: #fff;
   border: 2px solid #d9534f;
 }
-.btn-danger:hover, .btn-danger:focus, .btn-danger:active {
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
   background: #d43f3a !important;
   border-color: #d43f3a !important;
 }
@@ -1323,7 +1380,9 @@ form label {
   color: #d9534f;
   border: 2px solid #d9534f;
 }
-.btn-danger.btn-outline:hover, .btn-danger.btn-outline:focus, .btn-danger.btn-outline:active {
+.btn-danger.btn-outline:hover,
+.btn-danger.btn-outline:focus,
+.btn-danger.btn-outline:active {
   background: #d9534f;
   color: #fff;
 }
@@ -1333,7 +1392,9 @@ form label {
   color: #000;
   border: 2px solid #fff;
 }
-.btn-white:hover, .btn-white:focus, .btn-white:active {
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active {
   color: #000;
   background: #f2f2f2 !important;
   border-color: #f2f2f2 !important;
@@ -1342,7 +1403,9 @@ form label {
   color: #fff;
   border: 2px solid #fff;
 }
-.btn-white.btn-outline:hover, .btn-white.btn-outline:focus, .btn-white.btn-outline:active {
+.btn-white.btn-outline:hover,
+.btn-white.btn-outline:focus,
+.btn-white.btn-outline:active {
   background: #fff;
   color: #000;
   border: 2px solid #fff;
@@ -1356,7 +1419,9 @@ form label {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.btn-outline:hover, .btn-outline:focus, .btn-outline:active {
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active {
   box-shadow: none;
 }
 
@@ -1395,10 +1460,11 @@ form label {
   font-size: 18px;
   font-weight: 300;
 }
-.form-control:active, .form-control:focus {
+.form-control:active,
+.form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #FF5126;
+  border-color: #ff5126;
 }
 
 .row-pb-md {
@@ -1442,7 +1508,7 @@ form label {
   margin-left: 0px;
 }
 .gtco-nav .gtco-contact ul li a i {
-  color: #FF5126;
+  color: #ff5126;
 }
 .gtco-nav .gtco-contact ul li a:hover i {
   color: #fff;
@@ -1461,7 +1527,7 @@ form label {
   width: 33.33%;
   float: left;
   padding: 30px;
-  background: #FF5126;
+  background: #ff5126;
   position: relative;
   text-align: center;
 }
@@ -1664,7 +1730,8 @@ form label {
 .gtco-card-item .gtco-text.text-left {
   text-align: left;
 }
-.gtco-card-item .gtco-text h2, .gtco-card-item .gtco-text span {
+.gtco-card-item .gtco-text h2,
+.gtco-card-item .gtco-text span {
   text-decoration: none !important;
 }
 .gtco-card-item .gtco-text h2 {
@@ -1708,7 +1775,8 @@ form label {
   zoom: 1;
   *display: inline;
 }
-.gtco-card-item:hover, .gtco-card-item:focus {
+.gtco-card-item:hover,
+.gtco-card-item:focus {
   bottom: 7px;
   text-decoration: none;
   -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
@@ -1717,14 +1785,16 @@ form label {
   -o-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
   box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
 }
-.gtco-card-item:hover img, .gtco-card-item:focus img {
+.gtco-card-item:hover img,
+.gtco-card-item:focus img {
   -webkot-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
   transform: scale(1.2);
 }
-.gtco-card-item:hover span.btn, .gtco-card-item:focus span.btn {
+.gtco-card-item:hover span.btn,
+.gtco-card-item:focus span.btn {
   opacity: 1;
   visibility: visible;
   bottom: 0px;
@@ -1732,14 +1802,19 @@ form label {
   border: 2px solid #ff6540 !important;
   background: #ff6540 !important;
 }
-.gtco-card-item:hover figure .overlay, .gtco-card-item:focus figure .overlay {
+.gtco-card-item:hover figure .overlay,
+.gtco-card-item:focus figure .overlay {
   opacity: 1;
   visibility: visible;
 }
-.gtco-card-item:hover figure .overlay i, .gtco-card-item:focus figure .overlay i {
+.gtco-card-item:hover figure .overlay i,
+.gtco-card-item:focus figure .overlay i {
   margin-top: -15px;
 }
-.gtco-card-item:hover h2, .gtco-card-item:hover span, .gtco-card-item:focus h2, .gtco-card-item:focus span {
+.gtco-card-item:hover h2,
+.gtco-card-item:hover span,
+.gtco-card-item:focus h2,
+.gtco-card-item:focus span {
   text-decoration: none !important;
 }
 
@@ -1802,8 +1877,16 @@ form label {
 .owl-carousel-fullwidth.gtco-light-arrow .owl-controls .owl-nav .owl-prev i {
   color: #fff;
 }
-.owl-carousel-fullwidth.gtco-light-arrow .owl-controls .owl-nav .owl-next:hover i,
-.owl-carousel-fullwidth.gtco-light-arrow .owl-controls .owl-nav .owl-prev:hover i {
+.owl-carousel-fullwidth.gtco-light-arrow
+  .owl-controls
+  .owl-nav
+  .owl-next:hover
+  i,
+.owl-carousel-fullwidth.gtco-light-arrow
+  .owl-controls
+  .owl-nav
+  .owl-prev:hover
+  i {
   color: #fff;
 }
 
@@ -1818,14 +1901,15 @@ form label {
 }
 .owl-theme .owl-controls .owl-nav [class*="owl-"] i {
   font-size: 24px;
-  background: #FF5126 !important;
+  background: #ff5126 !important;
   padding: 12px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover i, .owl-theme .owl-controls .owl-nav [class*="owl-"]:focus i {
-  background: #FF5126 !important;
+.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover i,
+.owl-theme .owl-controls .owl-nav [class*="owl-"]:focus i {
+  background: #ff5126 !important;
 }
 
 .owl-theme .owl-dots {
@@ -1843,7 +1927,7 @@ form label {
 .owl-theme .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
-  background: #FF5126;
+  background: #ff5126;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
@@ -1851,12 +1935,13 @@ form label {
 }
 .owl-theme .owl-dots .owl-dot span:hover {
   background: none;
-  border: 2px solid #FF5126;
+  border: 2px solid #ff5126;
 }
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
   background: none;
-  border: 2px solid #FF5126;
+  border: 2px solid #ff5126;
 }
 
 #gtco-faq {
@@ -1891,7 +1976,7 @@ form label {
   margin: 0;
   padding: 0;
   font-size: 18px;
-  color: #brand-primary;
+  color: #ff5126;
 }
 .gtco-accordion .gtco-accordion-heading .icon {
   position: absolute;
@@ -1920,7 +2005,7 @@ form label {
   transform: rotate(0deg);
 }
 .gtco-accordion.active h3 {
-  color: #FF5126;
+  color: #ff5126;
 }
 
 #gtco-contact h3 {
@@ -2001,8 +2086,8 @@ form label {
 }
 #gtco-hero .flexslider .flex-direction-nav a.flex-prev:before {
   text-indent: 0px !important;
-  font-family: 'icomoon';
-  speak: none;
+  font-family: "icomoon";
+  speak-as: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2018,8 +2103,8 @@ form label {
   opacity: 1 !important;
 }
 #gtco-hero .flexslider .flex-direction-nav a.flex-next:before {
-  font-family: 'icomoon';
-  speak: none;
+  font-family: "icomoon";
+  speak-as: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2056,7 +2141,12 @@ form label {
   font-size: 20px;
   color: #fff;
 }
-#gtco-hero .flexslider .slider-text > .slider-text-inner .gtco-lead .icon-heart {
+#gtco-hero
+  .flexslider
+  .slider-text
+  > .slider-text-inner
+  .gtco-lead
+  .icon-heart {
   color: #d9534f;
 }
 
@@ -2069,8 +2159,6 @@ form label {
   color: #cccccc !important;
 }
 #gtco-services .feature-left h3 {
-  color: #FF5126;
+  color: #ff5126;
   font-size: 22px;
 }
-
-/*# sourceMappingURL=style.css.map */
